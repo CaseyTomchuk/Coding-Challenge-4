@@ -24,3 +24,11 @@ while (stock >= 0) {
     updatedStock = stock-- //As long as the stock is greater than or equal to 0, the stock will be subtracted by 1
     console.log(`Updated stock: ${updatedStock}`);
 };
+
+// Task 4: Do...While Loop
+let responses = 0;
+do {
+    responses++ // incriments the number of responses by 1
+    console.log(`Responses: ${responses}`) // outputs the number of responses
+}
+while (responses<3); // repeats the process as long as there are less than 3 responses
