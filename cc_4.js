@@ -8,3 +8,12 @@ if (purchaseAmount > 150) {
 else {
     console.log(`Final amount: $${purchaseAmount}`);
 } //if there is no discount, I will just log the original purchase amount
+
+// Task 2: For Loop
+let sales = [140,113,125,132,110];
+
+let sum = 0;
+for (let i = 0; i < sales.length; i++) {     
+    sum += sales[i];
+}  //let i = 0 sets the index to start at 0. As long as i is less than the amount of items left in the array, the loop will repeat, running sum+=sales[i]
+console.log(`The reported sales figures are: ${sales} and the total sales adds up to: $${sum}`); //note: wasn't sure how to make each item in the sales array appear with a $
