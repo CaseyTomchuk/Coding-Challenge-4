@@ -43,3 +43,9 @@ for (let key in employee) //key would define elements like name or position, and
 {
     console.log(`${key}: ${employee[key]}`) 
 }
+
+// Task 6: For...Of Loop
+let products = ["Hammer", "Nail", "Drill"];
+for (let item1 of products) { 
+    console.log(`Product: ${item1}`);
+} //item1 represents the current iteration of the products array, for each item in the array the process is iterated
