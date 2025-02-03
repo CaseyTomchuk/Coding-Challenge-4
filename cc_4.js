@@ -73,3 +73,8 @@ function applyDiscount(){
     return(price - (price * discount))
 }
 console.log(`Your base purchase was $${price} but after the discount you paid $${applyDiscount()}`);
+
+// Task 10: Arrow Functions
+let purchase2 = 40;
+let addPoints = (purchase2) => (purchase2 / 10); //simplifies the process so return is not necessary 
+console.log(`Your added points after your $${purchase2} purchase is: ${addPoints(purchase2)}`);
