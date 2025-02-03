@@ -32,3 +32,14 @@ do {
     console.log(`Responses: ${responses}`) // outputs the number of responses
 }
 while (responses<3); // repeats the process as long as there are less than 3 responses
+
+// Task 5: For...In Loop
+let employee = {
+    Name: "Alice",
+    Position: "Manager",
+    Salary: 75000
+};
+for (let key in employee) //key would define elements like name or position, and employee represents the text inside, such as "Alice." the "in" keyword is used for iteration
+{
+    console.log(`${key}: ${employee[key]}`) 
+}
