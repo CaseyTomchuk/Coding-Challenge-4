@@ -57,3 +57,11 @@ orders.forEach(function1); //For each item in the array, execute a function that
 function function1(orders) {
     console.log(`Order: ${orders}`)
 };
+
+// Task 8: Function Declaration
+let amount = 10
+let taxRate = 0.3
+function calculateTax() {
+    return(amount * taxRate)
+}
+console.log(`Your base purchase was $${amount} and you paid $${calculateTax()} in tax`);
