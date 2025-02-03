@@ -49,3 +49,11 @@ let products = ["Hammer", "Nail", "Drill"];
 for (let item1 of products) { 
     console.log(`Product: ${item1}`);
 } //item1 represents the current iteration of the products array, for each item in the array the process is iterated
+
+// Task 7 forEach() method
+let orders = [110,120,130];
+orders.forEach(function1); //For each item in the array, execute a function that logs/iterates the next item in the array
+
+function function1(orders) {
+    console.log(`Order: ${orders}`)
+};
