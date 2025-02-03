@@ -59,9 +59,17 @@ function function1(orders) {
 };
 
 // Task 8: Function Declaration
-let amount = 10
-let taxRate = 0.3
+let amount = 10;
+let taxRate = 0.3;
 function calculateTax() {
     return(amount * taxRate)
 }
-console.log(`Your base purchase was $${amount} and you paid $${calculateTax()} in tax`);
+console.log(`The base cost was $${amount} and $${calculateTax()} was paid in tax`); // Made a slight change in the wording on commit 9 
+
+// Task 9: Function Expressions
+let price = 50;
+let discount = 0.25;
+function applyDiscount(){
+    return(price - (price * discount))
+}
+console.log(`Your base purchase was $${price} but after the discount you paid $${applyDiscount()}`);
